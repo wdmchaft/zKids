@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67BA759A14292333003EE09A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67BA759914292333003EE09A /* UIKit.framework */; };
+		67BA759C14292333003EE09A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67BA759B14292333003EE09A /* Foundation.framework */; };
+		67BA759E14292333003EE09A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67BA759D14292333003EE09A /* CoreGraphics.framework */; };
+		67BA75A014292333003EE09A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67BA759F14292333003EE09A /* QuartzCore.framework */; };
+		67BA75A214292333003EE09A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67BA75A114292333003EE09A /* OpenGLES.framework */; };
+		67BA75A814292333003EE09A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67BA75A614292333003EE09A /* InfoPlist.strings */; };
+		67BA75AA14292333003EE09A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BA75A914292333003EE09A /* main.m */; };
+		67BA75AE14292333003EE09A /* zKidsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BA75AD14292333003EE09A /* zKidsAppDelegate.m */; };
+		67BA75B114292333003EE09A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67BA75AF14292333003EE09A /* MainWindow.xib */; };
+		67BA75B314292333003EE09A /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 67BA75B214292333003EE09A /* Shader.fsh */; };
+		67BA75B514292333003EE09A /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 67BA75B414292333003EE09A /* Shader.vsh */; };
+		67BA75B814292333003EE09A /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BA75B714292333003EE09A /* EAGLView.m */; };
+		67BA75BB14292333003EE09A /* zKidsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BA75BA14292333003EE09A /* zKidsViewController.m */; };
+		67BA75BE14292333003EE09A /* zKidsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67BA75BC14292333003EE09A /* zKidsViewController.xib */; };
+		67BA75C614292333003EE09A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67BA75C514292333003EE09A /* SenTestingKit.framework */; };
+		67BA75C714292333003EE09A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67BA759914292333003EE09A /* UIKit.framework */; };
+		67BA75C814292333003EE09A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67BA759B14292333003EE09A /* Foundation.framework */; };
+		67BA75C914292333003EE09A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67BA759D14292333003EE09A /* CoreGraphics.framework */; };
+		67BA75D114292333003EE09A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67BA75CF14292333003EE09A /* InfoPlist.strings */; };
+		67BA75D314292333003EE09A /* zKidsTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 67BA75D214292333003EE09A /* zKidsTests.h */; };
+		67BA75D514292333003EE09A /* zKidsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BA75D414292333003EE09A /* zKidsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67BA75CA14292333003EE09A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67BA758C14292332003EE09A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67BA759414292333003EE09A;
+			remoteInfo = zKids;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67BA759514292333003EE09A /* zKids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zKids.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67BA759914292333003EE09A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		67BA759B14292333003EE09A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		67BA759D14292333003EE09A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		67BA759F14292333003EE09A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		67BA75A114292333003EE09A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		67BA75A514292333003EE09A /* zKids-Info.plist */ = {isa = PBXFileReference; path = "zKids-Info.plist"; sourceTree = "<group>"; };
+		67BA75A714292333003EE09A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		67BA75A914292333003EE09A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		67BA75AB14292333003EE09A /* zKids-Prefix.pch */ = {isa = PBXFileReference; path = "zKids-Prefix.pch"; sourceTree = "<group>"; };
+		67BA75AC14292333003EE09A /* zKidsAppDelegate.h */ = {isa = PBXFileReference; path = zKidsAppDelegate.h; sourceTree = "<group>"; };
+		67BA75AD14292333003EE09A /* zKidsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zKidsAppDelegate.m; sourceTree = "<group>"; };
+		67BA75B014292333003EE09A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		67BA75B214292333003EE09A /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		67BA75B414292333003EE09A /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		67BA75B614292333003EE09A /* EAGLView.h */ = {isa = PBXFileReference; path = EAGLView.h; sourceTree = "<group>"; };
+		67BA75B714292333003EE09A /* EAGLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
+		67BA75B914292333003EE09A /* zKidsViewController.h */ = {isa = PBXFileReference; path = zKidsViewController.h; sourceTree = "<group>"; };
+		67BA75BA14292333003EE09A /* zKidsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zKidsViewController.m; sourceTree = "<group>"; };
+		67BA75BD14292333003EE09A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/zKidsViewController.xib; sourceTree = "<group>"; };
+		67BA75C414292333003EE09A /* zKidsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zKidsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67BA75C514292333003EE09A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		67BA75CE14292333003EE09A /* zKidsTests-Info.plist */ = {isa = PBXFileReference; path = "zKidsTests-Info.plist"; sourceTree = "<group>"; };
+		67BA75D014292333003EE09A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		67BA75D214292333003EE09A /* zKidsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zKidsTests.h; sourceTree = "<group>"; };
+		67BA75D414292333003EE09A /* zKidsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zKidsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67BA759214292333003EE09A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BA759A14292333003EE09A /* UIKit.framework in Frameworks */,
+				67BA759C14292333003EE09A /* Foundation.framework in Frameworks */,
+				67BA759E14292333003EE09A /* CoreGraphics.framework in Frameworks */,
+				67BA75A014292333003EE09A /* QuartzCore.framework in Frameworks */,
+				67BA75A214292333003EE09A /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BA75C014292333003EE09A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BA75C614292333003EE09A /* SenTestingKit.framework in Frameworks */,
+				67BA75C714292333003EE09A /* UIKit.framework in Frameworks */,
+				67BA75C814292333003EE09A /* Foundation.framework in Frameworks */,
+				67BA75C914292333003EE09A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67BA758A14292332003EE09A = {
+			isa = PBXGroup;
+			children = (
+				67BA75A314292333003EE09A /* zKids */,
+				67BA75CC14292333003EE09A /* zKidsTests */,
+				67BA759814292333003EE09A /* Frameworks */,
+				67BA759614292333003EE09A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67BA759614292333003EE09A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67BA759514292333003EE09A /* zKids.app */,
+				67BA75C414292333003EE09A /* zKidsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67BA759814292333003EE09A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67BA759914292333003EE09A /* UIKit.framework */,
+				67BA759B14292333003EE09A /* Foundation.framework */,
+				67BA759D14292333003EE09A /* CoreGraphics.framework */,
+				67BA759F14292333003EE09A /* QuartzCore.framework */,
+				67BA75A114292333003EE09A /* OpenGLES.framework */,
+				67BA75C514292333003EE09A /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67BA75A314292333003EE09A /* zKids */ = {
+			isa = PBXGroup;
+			children = (
+				67BA75AC14292333003EE09A /* zKidsAppDelegate.h */,
+				67BA75AD14292333003EE09A /* zKidsAppDelegate.m */,
+				67BA75AF14292333003EE09A /* MainWindow.xib */,
+				67BA75B214292333003EE09A /* Shader.fsh */,
+				67BA75B414292333003EE09A /* Shader.vsh */,
+				67BA75B614292333003EE09A /* EAGLView.h */,
+				67BA75B714292333003EE09A /* EAGLView.m */,
+				67BA75B914292333003EE09A /* zKidsViewController.h */,
+				67BA75BA14292333003EE09A /* zKidsViewController.m */,
+				67BA75BC14292333003EE09A /* zKidsViewController.xib */,
+				67BA75A414292333003EE09A /* Supporting Files */,
+			);
+			path = zKids;
+			sourceTree = "<group>";
+		};
+		67BA75A414292333003EE09A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67BA75A514292333003EE09A /* zKids-Info.plist */,
+				67BA75A614292333003EE09A /* InfoPlist.strings */,
+				67BA75A914292333003EE09A /* main.m */,
+				67BA75AB14292333003EE09A /* zKids-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67BA75CC14292333003EE09A /* zKidsTests */ = {
+			isa = PBXGroup;
+			children = (
+				67BA75D214292333003EE09A /* zKidsTests.h */,
+				67BA75D414292333003EE09A /* zKidsTests.m */,
+				67BA75CD14292333003EE09A /* Supporting Files */,
+			);
+			path = zKidsTests;
+			sourceTree = "<group>";
+		};
+		67BA75CD14292333003EE09A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67BA75CE14292333003EE09A /* zKidsTests-Info.plist */,
+				67BA75CF14292333003EE09A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67BA759414292333003EE09A /* zKids */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67BA75D814292333003EE09A /* Build configuration list for PBXNativeTarget "zKids" */;
+			buildPhases = (
+				67BA759114292333003EE09A /* Sources */,
+				67BA759214292333003EE09A /* Frameworks */,
+				67BA759314292333003EE09A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zKids;
+			productName = zKids;
+			productReference = 67BA759514292333003EE09A /* zKids.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67BA75C314292333003EE09A /* zKidsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67BA75DB14292333003EE09A /* Build configuration list for PBXNativeTarget "zKidsTests" */;
+			buildPhases = (
+				67BA75BF14292333003EE09A /* Sources */,
+				67BA75C014292333003EE09A /* Frameworks */,
+				67BA75C114292333003EE09A /* Resources */,
+				67BA75C214292333003EE09A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67BA75CB14292333003EE09A /* PBXTargetDependency */,
+			);
+			name = zKidsTests;
+			productName = zKidsTests;
+			productReference = 67BA75C414292333003EE09A /* zKidsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67BA758C14292332003EE09A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "iva-mochalov@yandex.ru";
+			};
+			buildConfigurationList = 67BA758F14292332003EE09A /* Build configuration list for PBXProject "zKids" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 67BA758A14292332003EE09A;
+			productRefGroup = 67BA759614292333003EE09A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67BA759414292333003EE09A /* zKids */,
+				67BA75C314292333003EE09A /* zKidsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67BA759314292333003EE09A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BA75A814292333003EE09A /* InfoPlist.strings in Resources */,
+				67BA75B114292333003EE09A /* MainWindow.xib in Resources */,
+				67BA75B314292333003EE09A /* Shader.fsh in Resources */,
+				67BA75B514292333003EE09A /* Shader.vsh in Resources */,
+				67BA75BE14292333003EE09A /* zKidsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BA75C114292333003EE09A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BA75D114292333003EE09A /* InfoPlist.strings in Resources */,
+				67BA75D314292333003EE09A /* zKidsTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		67BA75C214292333003EE09A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67BA759114292333003EE09A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BA75AA14292333003EE09A /* main.m in Sources */,
+				67BA75AE14292333003EE09A /* zKidsAppDelegate.m in Sources */,
+				67BA75B814292333003EE09A /* EAGLView.m in Sources */,
+				67BA75BB14292333003EE09A /* zKidsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BA75BF14292333003EE09A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BA75D514292333003EE09A /* zKidsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67BA75CB14292333003EE09A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67BA759414292333003EE09A /* zKids */;
+			targetProxy = 67BA75CA14292333003EE09A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67BA75A614292333003EE09A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67BA75A714292333003EE09A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		67BA75AF14292333003EE09A /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67BA75B014292333003EE09A /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		67BA75BC14292333003EE09A /* zKidsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67BA75BD14292333003EE09A /* en */,
+			);
+			name = zKidsViewController.xib;
+			sourceTree = "<group>";
+		};
+		67BA75CF14292333003EE09A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67BA75D014292333003EE09A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67BA75D614292333003EE09A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		67BA75D714292333003EE09A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67BA75D914292333003EE09A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zKids/zKids-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "zKids/zKids-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		67BA75DA14292333003EE09A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zKids/zKids-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "zKids/zKids-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		67BA75DC14292333003EE09A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/zKids.app/zKids";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zKids/zKids-Prefix.pch";
+				INFOPLIST_FILE = "zKidsTests/zKidsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		67BA75DD14292333003EE09A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/zKids.app/zKids";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zKids/zKids-Prefix.pch";
+				INFOPLIST_FILE = "zKidsTests/zKidsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67BA758F14292332003EE09A /* Build configuration list for PBXProject "zKids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67BA75D614292333003EE09A /* Debug */,
+				67BA75D714292333003EE09A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67BA75D814292333003EE09A /* Build configuration list for PBXNativeTarget "zKids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67BA75D914292333003EE09A /* Debug */,
+				67BA75DA14292333003EE09A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		67BA75DB14292333003EE09A /* Build configuration list for PBXNativeTarget "zKidsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67BA75DC14292333003EE09A /* Debug */,
+				67BA75DD14292333003EE09A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67BA758C14292332003EE09A /* Project object */;
+}
