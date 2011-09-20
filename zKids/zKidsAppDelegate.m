@@ -12,15 +12,16 @@
 
 #import "zKidsViewController.h"
 
-@implementation zKidsAppDelegate
-
-@synthesize window = _window;
-@synthesize viewController = _viewController;
+@implementation ZKidsAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
-    self.window.rootViewController = self.viewController;
+    _rootController = [[ZKidsViewController alloc] init];
+    _window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    //[_window setBackgroundColor: [UIColor whiteColor]];
+    [_window addSubview:_rootController.view];
+    [_window makeKeyAndVisible];
+
     return YES;
 }
 
@@ -30,7 +31,7 @@
      Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
      Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
      */
-    [self.viewController stopAnimation];
+    [_rootController stopAnimation];
 }
 
 - (void)applicationDidEnterBackground:(UIApplication *)application
@@ -53,7 +54,7 @@
     /*
      Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
      */
-    [self.viewController startAnimation];
+    [_rootController startAnimation];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application
@@ -63,13 +64,13 @@
      Save data if appropriate.
      See also applicationDidEnterBackground:.
      */
-    [self.viewController stopAnimation];
+    [_rootController stopAnimation];
 }
 
 - (void)dealloc
 {
     [_window release];
-    [_viewController release];
+    [_rootController release];
     [super dealloc];
 }
 

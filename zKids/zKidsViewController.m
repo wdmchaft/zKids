@@ -25,7 +25,7 @@ enum {
     NUM_ATTRIBUTES
 };
 
-@interface zKidsViewController ()
+@interface ZKidsViewController ()
 @property (nonatomic, retain) EAGLContext *context;
 @property (nonatomic, assign) CADisplayLink *displayLink;
 - (BOOL)loadShaders;
@@ -34,7 +34,7 @@ enum {
 - (BOOL)validateProgram:(GLuint)prog;
 @end
 
-@implementation zKidsViewController
+@implementation ZKidsViewController
 
 @synthesize animating;
 @synthesize context;

@@ -15,12 +15,10 @@
 		67BA75A814292333003EE09A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67BA75A614292333003EE09A /* InfoPlist.strings */; };
 		67BA75AA14292333003EE09A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BA75A914292333003EE09A /* main.m */; };
 		67BA75AE14292333003EE09A /* zKidsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BA75AD14292333003EE09A /* zKidsAppDelegate.m */; };
-		67BA75B114292333003EE09A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67BA75AF14292333003EE09A /* MainWindow.xib */; };
 		67BA75B314292333003EE09A /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 67BA75B214292333003EE09A /* Shader.fsh */; };
 		67BA75B514292333003EE09A /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 67BA75B414292333003EE09A /* Shader.vsh */; };
 		67BA75B814292333003EE09A /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BA75B714292333003EE09A /* EAGLView.m */; };
 		67BA75BB14292333003EE09A /* zKidsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BA75BA14292333003EE09A /* zKidsViewController.m */; };
-		67BA75BE14292333003EE09A /* zKidsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67BA75BC14292333003EE09A /* zKidsViewController.xib */; };
 		67BA75C614292333003EE09A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67BA75C514292333003EE09A /* SenTestingKit.framework */; };
 		67BA75C714292333003EE09A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67BA759914292333003EE09A /* UIKit.framework */; };
 		67BA75C814292333003EE09A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67BA759B14292333003EE09A /* Foundation.framework */; };
@@ -47,23 +45,21 @@
 		67BA759D14292333003EE09A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		67BA759F14292333003EE09A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		67BA75A114292333003EE09A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
-		67BA75A514292333003EE09A /* zKids-Info.plist */ = {isa = PBXFileReference; path = "zKids-Info.plist"; sourceTree = "<group>"; };
+		67BA75A514292333003EE09A /* zKids-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "zKids-Info.plist"; sourceTree = "<group>"; };
 		67BA75A714292333003EE09A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		67BA75A914292333003EE09A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		67BA75AB14292333003EE09A /* zKids-Prefix.pch */ = {isa = PBXFileReference; path = "zKids-Prefix.pch"; sourceTree = "<group>"; };
-		67BA75AC14292333003EE09A /* zKidsAppDelegate.h */ = {isa = PBXFileReference; path = zKidsAppDelegate.h; sourceTree = "<group>"; };
+		67BA75AB14292333003EE09A /* zKids-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "zKids-Prefix.pch"; sourceTree = "<group>"; };
+		67BA75AC14292333003EE09A /* zKidsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zKidsAppDelegate.h; sourceTree = "<group>"; };
 		67BA75AD14292333003EE09A /* zKidsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zKidsAppDelegate.m; sourceTree = "<group>"; };
-		67BA75B014292333003EE09A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		67BA75B214292333003EE09A /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
 		67BA75B414292333003EE09A /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
-		67BA75B614292333003EE09A /* EAGLView.h */ = {isa = PBXFileReference; path = EAGLView.h; sourceTree = "<group>"; };
+		67BA75B614292333003EE09A /* EAGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
 		67BA75B714292333003EE09A /* EAGLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
-		67BA75B914292333003EE09A /* zKidsViewController.h */ = {isa = PBXFileReference; path = zKidsViewController.h; sourceTree = "<group>"; };
+		67BA75B914292333003EE09A /* zKidsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zKidsViewController.h; sourceTree = "<group>"; };
 		67BA75BA14292333003EE09A /* zKidsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zKidsViewController.m; sourceTree = "<group>"; };
-		67BA75BD14292333003EE09A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/zKidsViewController.xib; sourceTree = "<group>"; };
 		67BA75C414292333003EE09A /* zKidsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zKidsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67BA75C514292333003EE09A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		67BA75CE14292333003EE09A /* zKidsTests-Info.plist */ = {isa = PBXFileReference; path = "zKidsTests-Info.plist"; sourceTree = "<group>"; };
+		67BA75CE14292333003EE09A /* zKidsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "zKidsTests-Info.plist"; sourceTree = "<group>"; };
 		67BA75D014292333003EE09A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		67BA75D214292333003EE09A /* zKidsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zKidsTests.h; sourceTree = "<group>"; };
 		67BA75D414292333003EE09A /* zKidsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zKidsTests.m; sourceTree = "<group>"; };
@@ -133,14 +129,12 @@
 			children = (
 				67BA75AC14292333003EE09A /* zKidsAppDelegate.h */,
 				67BA75AD14292333003EE09A /* zKidsAppDelegate.m */,
-				67BA75AF14292333003EE09A /* MainWindow.xib */,
 				67BA75B214292333003EE09A /* Shader.fsh */,
 				67BA75B414292333003EE09A /* Shader.vsh */,
 				67BA75B614292333003EE09A /* EAGLView.h */,
 				67BA75B714292333003EE09A /* EAGLView.m */,
 				67BA75B914292333003EE09A /* zKidsViewController.h */,
 				67BA75BA14292333003EE09A /* zKidsViewController.m */,
-				67BA75BC14292333003EE09A /* zKidsViewController.xib */,
 				67BA75A414292333003EE09A /* Supporting Files */,
 			);
 			path = zKids;
@@ -247,10 +241,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				67BA75A814292333003EE09A /* InfoPlist.strings in Resources */,
-				67BA75B114292333003EE09A /* MainWindow.xib in Resources */,
 				67BA75B314292333003EE09A /* Shader.fsh in Resources */,
 				67BA75B514292333003EE09A /* Shader.vsh in Resources */,
-				67BA75BE14292333003EE09A /* zKidsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,22 +310,6 @@
 				67BA75A714292333003EE09A /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		67BA75AF14292333003EE09A /* MainWindow.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				67BA75B014292333003EE09A /* en */,
-			);
-			name = MainWindow.xib;
-			sourceTree = "<group>";
-		};
-		67BA75BC14292333003EE09A /* zKidsViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				67BA75BD14292333003EE09A /* en */,
-			);
-			name = zKidsViewController.xib;
 			sourceTree = "<group>";
 		};
 		67BA75CF14292333003EE09A /* InfoPlist.strings */ = {

@@ -7,13 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "zKidsViewController.h"
 
-@class zKidsViewController;
+@interface ZKidsAppDelegate : NSObject <UIApplicationDelegate> {
 
-@interface zKidsAppDelegate : NSObject <UIApplicationDelegate>
+@private
+    UIWindow *_window;
 
-@property (nonatomic, retain) IBOutlet UIWindow *window;
-
-@property (nonatomic, retain) IBOutlet zKidsViewController *viewController;
+    ZKidsViewController *_rootController;
+}
 
 @end
