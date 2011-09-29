@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		67A20BF81430F51B00E9D1C4 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 67A20BF71430F51B00E9D1C4 /* background.png */; };
 		67A20BFB1430F81B00E9D1C4 /* zSpliteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A20BFA1430F81B00E9D1C4 /* zSpliteView.m */; };
+		67A20BFF1435005C00E9D1C4 /* zPazzleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A20BFE1435005C00E9D1C4 /* zPazzleView.m */; };
+		67A20C0114350A6500E9D1C4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A20C0014350A6400E9D1C4 /* AVFoundation.framework */; };
+		67A20C0314350B5A00E9D1C4 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 67A20C0214350B5A00E9D1C4 /* sound.mp3 */; };
 		67BA759A14292333003EE09A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67BA759914292333003EE09A /* UIKit.framework */; };
 		67BA759C14292333003EE09A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67BA759B14292333003EE09A /* Foundation.framework */; };
 		67BA759E14292333003EE09A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67BA759D14292333003EE09A /* CoreGraphics.framework */; };
@@ -41,6 +44,10 @@
 		67A20BF71430F51B00E9D1C4 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		67A20BF91430F81B00E9D1C4 /* zSpliteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zSpliteView.h; sourceTree = "<group>"; };
 		67A20BFA1430F81B00E9D1C4 /* zSpliteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zSpliteView.m; sourceTree = "<group>"; };
+		67A20BFD1435005C00E9D1C4 /* zPazzleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zPazzleView.h; path = Pazzle/zPazzleView.h; sourceTree = "<group>"; };
+		67A20BFE1435005C00E9D1C4 /* zPazzleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = zPazzleView.m; path = Pazzle/zPazzleView.m; sourceTree = "<group>"; };
+		67A20C0014350A6400E9D1C4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		67A20C0214350B5A00E9D1C4 /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sound.mp3; path = Sounds/sound.mp3; sourceTree = "<group>"; };
 		67BA759514292333003EE09A /* zKids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zKids.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67BA759914292333003EE09A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		67BA759B14292333003EE09A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -68,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67A20C0114350A6500E9D1C4 /* AVFoundation.framework in Frameworks */,
 				67BA759A14292333003EE09A /* UIKit.framework in Frameworks */,
 				67BA759C14292333003EE09A /* Foundation.framework in Frameworks */,
 				67BA759E14292333003EE09A /* CoreGraphics.framework in Frameworks */,
@@ -90,9 +98,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67A20BFC1435000000E9D1C4 /* Pazzle */ = {
+			isa = PBXGroup;
+			children = (
+				67A20BFD1435005C00E9D1C4 /* zPazzleView.h */,
+				67A20BFE1435005C00E9D1C4 /* zPazzleView.m */,
+			);
+			name = Pazzle;
+			sourceTree = "<group>";
+		};
 		67BA758A14292332003EE09A = {
 			isa = PBXGroup;
 			children = (
+				67A20C0014350A6400E9D1C4 /* AVFoundation.framework */,
 				67BA75A314292333003EE09A /* zKids */,
 				67BA75CC14292333003EE09A /* zKidsTests */,
 				67BA759814292333003EE09A /* Frameworks */,
@@ -125,6 +143,7 @@
 		67BA75A314292333003EE09A /* zKids */ = {
 			isa = PBXGroup;
 			children = (
+				67A20BFC1435000000E9D1C4 /* Pazzle */,
 				67BA75AC14292333003EE09A /* zKidsAppDelegate.h */,
 				67BA75AD14292333003EE09A /* zKidsAppDelegate.m */,
 				67BA75B914292333003EE09A /* zKidsViewController.h */,
@@ -139,6 +158,7 @@
 		67BA75A414292333003EE09A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				67A20C0214350B5A00E9D1C4 /* sound.mp3 */,
 				67A20BF71430F51B00E9D1C4 /* background.png */,
 				67BA75A514292333003EE09A /* zKids-Info.plist */,
 				67BA75A614292333003EE09A /* InfoPlist.strings */,
@@ -239,6 +259,7 @@
 			files = (
 				67BA75A814292333003EE09A /* InfoPlist.strings in Resources */,
 				67A20BF81430F51B00E9D1C4 /* background.png in Resources */,
+				67A20C0314350B5A00E9D1C4 /* sound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +299,7 @@
 				67BA75AE14292333003EE09A /* zKidsAppDelegate.m in Sources */,
 				67BA75BB14292333003EE09A /* zKidsViewController.m in Sources */,
 				67A20BFB1430F81B00E9D1C4 /* zSpliteView.m in Sources */,
+				67A20BFF1435005C00E9D1C4 /* zPazzleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

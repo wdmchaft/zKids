@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface ZKidsViewController : UIViewController {
     
 }
+
+- (AVAudioPlayer *) soundNamed:(NSString *)name;
 
 @end
